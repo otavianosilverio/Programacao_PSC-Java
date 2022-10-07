@@ -1,3 +1,4 @@
 # PSC-Java
 Programação de Solução Computacionais
-Algoritmos utilizados na sala em Java
+
+Algoritmos feitos na sala de aula com alunos da disciplina prática
