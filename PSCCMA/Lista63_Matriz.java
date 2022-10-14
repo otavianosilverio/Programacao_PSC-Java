@@ -26,7 +26,19 @@ public class Lista63_Matriz {
 	            }
 	        }
 	        System.out.println("Maior Numero da Matriz =>: "+Maior);
-	     
+	       // Trocando Numeros da Matriz
+	        for(int i=0;i<tamanho;i++){
+				  System.out.println("Linha =>: "+i);
+		            for(int j=0;j<tamanho;j++){
+	                  // maior valor da matriz
+		                if ((MatrizNova[i][j] % 2)==0) {
+		                	MatrizNova[i][j] = 1;
+		                }else {
+		                	MatrizNova[i][j] = -1;
+		                }
+		                System.out.println("Coluna =>: "+MatrizNova[i][j]);
+		            }
+		        }
 		 
 		 
 		 
