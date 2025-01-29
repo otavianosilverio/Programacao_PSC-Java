@@ -1,0 +1,98 @@
+Exercício 1: CR7
+Descrição:
+A Eurocopa é um dos torneios de futebol mais prestigiosos do mundo.
+Cristiano Ronaldo é um dos jogadores mais destacados, e os torcedores querem acompanhar seus gols ao longo do torneio. Eles precisam de um programa que registre e analise os gols marcados por Cristiano Ronaldo em cada partida e determine o total de gols, a média de gols por partida e em qual partida ele marcou mais gols.
+
+Instruções:
+
+O programa deve ler um número inteiro n que representa o número de partidas jogadas por Cristiano Ronaldo na Eurocopa.
+Ler n números inteiros, cada um representando o número de gols marcados por Cristiano Ronaldo em cada partida.
+Calcular e exibir o total de gols marcados.
+Calcular e exibir a média de gols por partida.
+Determinar e exibir em qual partida ele marcou o maior número de gols.
+Exemplo de entrada:
+
+5
+
+2 1 0 3 2
+
+Exemplo de saída:
+
+Total de gols: 8 
+
+Média de gols por partida: 1.6 
+
+Partida com mais gols: 4 (3 gols) 
+
+ 
+
+Exercício 2: Análise de Sentimentos
+Descrição:
+Uma empresa de marketing deseja analisar os comentários de seus clientes para determinar se são positivos, negativos ou neutros. Define-se que um comentário é positivo se contém mais palavras positivas do que negativas, negativo se contém mais palavras negativas do que positivas e neutro se contém o mesmo número de palavras positivas e negativas.
+
+Instruções:
+
+O programa deve ler um número inteiro n que representa a quantidade de comentários.
+Ler n comentários (cadeias de texto).
+Contar o número de palavras positivas e negativas em cada comentário.
+Determinar e exibir se cada comentário é positivo, negativo ou neutro.
+Lista de palavras:
+
+(java) Copiar código
+
+String[] positivas = {"bom", "excelente", "fantástico", "genial", "positivo"};
+
+String[] negativas = {"ruim", "horrível", "terrível", "péssimo", "negativo"};
+
+Exemplo de entrada:
+
+2
+
+O serviço foi excelente e a comida estava genial.
+
+A experiência foi horrível, o serviço terrível.
+
+Exemplo de saída:
+
+Positivo
+
+Negativo
+
+ 
+
+Exercício 3: Matriz Transposta
+Descrição:
+Escreva um programa em Java que leia uma matriz de m x n de números inteiros a partir da entrada do usuário e, em seguida, imprima a matriz transposta.
+
+Instruções:
+
+Solicite ao usuário que informe as dimensões m e n da matriz.
+Solicite ao usuário que informe os elementos da matriz.
+Calcule a matriz transposta.
+Imprima a matriz original e a matriz transposta.
+Exemplo:
+
+Digite o número de linhas (m): 2 
+
+Digite o número de colunas (n): 3 
+
+Digite os elementos da matriz: 
+
+1 2 3 
+
+4 5 6 
+
+Matriz original: 
+
+1 2 3 
+
+4 5 6 
+
+Matriz transposta: 
+
+1 4 
+
+2 5 
+
+3 6 
+
